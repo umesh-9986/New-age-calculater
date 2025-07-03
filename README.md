@@ -1,13 +1,19 @@
-from datetime import date
+# Age Calculator Project 🎂
 
-# Ask user for birth year
-name = input("Enter your name: ")
-birth_year = int(input("Enter your birth year (YYYY): "))
+This Python script asks for the user's name and birth year, then calculates the current age using the system date.
 
-# Get current year
-current_year = date.today().year
+### 📥 Input
+- UMESH
+- 2005
 
-# Calculate age
-age = current_year - birth_year
+### 📤 Output
+- Current Age displayed in a friendly message
 
-print(f"Hello {name}, you are {age} years old in {current_year}!")# New-age-calculater
+### 🔧 Technologies Used
+- Python 3
+- Google Colab
+- GitHub (uploaded via mobile)
+
+---
+
+Made with ❤️ by Umesh
